@@ -1,0 +1,5 @@
+a=int(input())
+print(a*'-')
+print(chr(124)+(a-2)*' '+chr(124))
+print(chr(124)+(a-2)*' '+chr(124))
+print(a*'-')
