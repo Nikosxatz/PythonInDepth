@@ -1,7 +1,7 @@
 def test_type(f):
     def inner(x,y,z,v):
-        if (type(x)==int or type(x)==float) and (type(y)==int or type(y)==float) and (type(z)==int or type(z)==float) and (type(v)==int or type(v)==float):
-            f(x,y,z,v)
+        if (type(x) is int or type(x) is float) and (type(y) is int or type(y) is float) and  (type(z) is int or type(z) is float) and (type(v) is int or type(v) is float):
+            return f(x,y,z,v)
         else:
             print('Που πας βρε Καραμήτρο!')
             return None
