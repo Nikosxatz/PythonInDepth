@@ -3,4 +3,3 @@ print(len(onoma))
 print(onoma.replace(' ',''))
 
 
-
