@@ -1,0 +1,15 @@
+frasi='Στων Ψαρών την ολόμαυρη ράχη ...'
+print(frasi.isascii())
+print(frasi.endswith('..'))
+pos=frasi.find('Ψαρών')
+print(pos)
+f2=frasi.title()
+print(f2)
+print(f2.count('ρ'))
+l1=frasi.split()
+for i in l1:
+    print(i)
+tt=str.maketrans('αβγδεζηθικλμ','123456789$#*','ώάό ')
+print(frasi.translate(tt))
+print(frasi.rjust(40))
+print(frasi.zfill(40))

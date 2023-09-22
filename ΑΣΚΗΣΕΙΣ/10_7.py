@@ -1,0 +1,14 @@
+s1={4,6,8,9,10,3,2,12}
+s2={1,22,4,7,6,44}
+s3={23,44,4,123}
+s3.add(6)
+print(s1.intersection(s2,s3))
+s3.add(6)
+print(s1.difference(s2,s3))
+print(s1.symmetric_difference(s2))
+print(s1.union(s2))
+s3.clear()
+s3.update(range(10,16,2))
+s3.remove(14)
+print(s3)
+print(s3.issubset(s1))
