@@ -64,7 +64,10 @@ if a==0:
     olo='Μηδέν '
 if num>a:
     olo=olo+'κόμμα '
-    olo+=tripsifio(f,False)
+    if f<10:
+        olo+='μηδέν '+tripsifio(f,False)
+    else:
+        olo+=tripsifio(f,False)
 print(olo)
   
    
