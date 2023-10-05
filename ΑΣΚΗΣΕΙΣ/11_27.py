@@ -1,0 +1,10 @@
+file_in=input('Δώσε αρχείο κειμένου > ')
+xar1=input('Δώσε χαρακτήρες 1: ')
+xar2=input('Δώσε χαρακτήρες 2: ')
+f1=open(file_in,'r+',encoding='utf-8')
+all=f1.read()
+print(all.count(xar1))
+f1.seek(0)
+f1.write(all.replace(xar1,xar2))
+f1.close()
+
