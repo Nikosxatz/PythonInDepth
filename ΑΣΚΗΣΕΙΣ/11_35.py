@@ -26,15 +26,15 @@ platos=int.from_bytes(platos_bytes,'little')
 ypsos=int.from_bytes(ypsos_bytes,'little')
 
 bytes_per_raw=3*platos
-padding=4-bytes_per_raw%4
-print('Byte πλήρωσης:',padding)
+padding=(4-bytes_per_raw%4)%4
+print("Padding:",padding)
 
 fin.seek(28)
 bits_bytes=fin.read(2)
 bits=int.from_bytes(bits_bytes,'little')
-print('Bits per pixel:',bits)
+print("Bits per pixel:",bits)
 if bits!=24:
-    print('Συγνώμη αλλα το αρχείο δεν είναι RGB 24bits')
+    print("Συγνώμη αλλα το αρχείο δεν είναι RGB 24bits")
     sys.exit()
 
 fin.seek(0)
