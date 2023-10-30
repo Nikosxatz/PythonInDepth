@@ -1,0 +1,12 @@
+c='蟒蛇'
+print(c)
+print(len(c))
+b1=c.encode()
+print(len(b1))
+print(b1)
+s1=b1.decode('greek')
+print(s1)
+s2=b1.decode()
+print(s2)
+s3=b1.decode('utf-16')
+print(s3)

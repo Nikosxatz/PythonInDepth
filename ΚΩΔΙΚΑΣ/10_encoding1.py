@@ -1,0 +1,10 @@
+s='Σάμος'
+b1=s.encode('utf-8')
+b2=s.encode('greek')
+b3=s.encode('utf-16')
+print(len(b1),len(b2),len(b3))
+print(b1.decode('utf-8'))
+print(b2.decode('greek'))
+print(b3.decode('utf-16'))
+print(b1.decode('greek'))
+print(b1.decode('ascii'))
