@@ -1,4 +1,4 @@
-fm=open('morse.txt','r',encoding='cp1253')
+fm=open('morse.txt','r',encoding='greek')
 morse=dict()
 for m in fm:
     line=m.split()
@@ -16,7 +16,7 @@ for frasi in fin:
             code=morse.get(ch)                  # Εντοπίζει στο λεξικό την ακολουθία Μορς του χαρακτηρα ch                  
             fout.write(code)
             fout.write(3*' ')                   # Εγγράφει 3 κενά μετά από κάθε γράμμα
-        fout.write(7*' ')                       # Εγγράφει 7 κενά μετά από κάθε λέξη
+        fout.write(4*' ')                       # Εγγράφει 4 ακόμα κενά μετά από κάθε λέξη ώστε να φίνουν συνολικά 7
 print('\n########### ΤΕΛΟΣ ###########')
 fin.close()
 fout.close()

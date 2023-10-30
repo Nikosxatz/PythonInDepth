@@ -6,7 +6,7 @@ def suffle(Lst):
         Lst[p1],Lst[p2]=Lst[p2],Lst[p1]
         
 filename=input('Δώσε όνομα αρχείου >')
-f=open(filename,'r',encoding='cp1253')
+f=open(filename,'r',encoding='greek')
 fout=open('code','wb')
 list1=[]
 list2=[]
@@ -23,7 +23,7 @@ suffle(list2)
 
 for i in range(len(list2)):
     fout.seek(list2[i])
-    fout.write(bytes(list1[i],encoding='ANSI'))
+    fout.write(bytes(list1[i],encoding='greek'))
     if i==len(list2)-1:
         pos=(0).to_bytes(2,'little')
     else:

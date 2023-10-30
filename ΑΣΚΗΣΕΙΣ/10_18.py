@@ -1,6 +1,6 @@
 b=bytearray(b'ABCD1234')
-b.insert(0,45)
-b.append(45)
+b.insert(0,ord('-'))
+b.append(ord('-'))
 b.insert(5,ord('*'))
 print(b)
 b.extend(range(200,221))

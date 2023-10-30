@@ -1,4 +1,4 @@
-with open('stoixeia2.txt','r',encoding='cp1253') as finp:
+with open('stoixeia2.txt','r',encoding='greek') as finp:
     while True:
         pos=int(input('Δώσε αριθμό εγγραφής > '))
         if pos==0:

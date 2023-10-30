@@ -1,4 +1,4 @@
-fin=open('foit.txt','r')
+fin=open('foit.txt','r',encoding='cp1253')
 fout=open('out1.txt','w')
 Lst=[]
 while True:

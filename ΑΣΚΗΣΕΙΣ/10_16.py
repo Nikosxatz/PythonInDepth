@@ -9,7 +9,7 @@ print(b1[0])
 b1[0]=65
 print(b1)
 b2=bytearray('Python is eazy','utf-8')
-for i in range(6):
+for i in range(4,9):
     b2[i]=45
 print(b2)
 

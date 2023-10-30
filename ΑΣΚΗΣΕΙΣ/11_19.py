@@ -1,4 +1,4 @@
-input_file=input('Δώσε όνομα αρχείου >')			# Δοκιμάστε το bath1.txt
+input_file=input('Δώσε όνομα αρχείου >')	# Δοκιμάστε το bath1.txt
 fin=open(input_file,'r',encoding='utf-8')
 fep=open('epit.txt','w',encoding='utf-8')
 fap=open('apot.txt','w',encoding='utf-8')
@@ -17,4 +17,4 @@ for line in fin:
 fin.close()
 fep.close()
 fap.close()
-print('Πλήθος φοιτητών :',pl,'Ποσοστό επιτυχίας :',ep/pl*100,'%')
+print('Πλήθος φοιτητών:{} Ποσοστό επιτυχίας:{:.2%}'.format(pl,ep/pl))

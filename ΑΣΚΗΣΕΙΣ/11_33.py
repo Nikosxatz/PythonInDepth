@@ -2,7 +2,7 @@ fin=open('code','rb')
 arx=int(input('Δώσε αρχική θέση >'))
 fin.seek(arx)
 while True:
-    ch=fin.read(1).decode('ANSI')
+    ch=fin.read(1).decode('greek')
     print(ch,end='')
     nxt=fin.read(2)
     next_pos=int.from_bytes(nxt,'little')

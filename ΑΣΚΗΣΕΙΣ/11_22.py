@@ -1,4 +1,4 @@
-with open('stoixeia2.txt','r',encoding='greek') as finp:
+with open('stoixeia2.txt','r',encoding='cp1253') as finp:
     found=False
     while True:
         onoma=finp.read(30)
