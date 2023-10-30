@@ -17,5 +17,8 @@ me=stoixeia('Νίκος',22,82)
 me.display()
 me.set('Μιχαήλ',5,19)
 me.display()
+test=stoixeia('Δοκιμή')
+test.display()
+
 
 

@@ -9,9 +9,6 @@ class proion:
     def stoixeia(self):
         print(self.perigrafi,'με τιμή',self.timi)
 
-    def __del__(self):
-        print('To',self.perigrafi,'μας άφησε χρόνους')
-
     @classmethod
     def synola(cls):
         print('Σύνολο προϊόντων:',cls.__plithos)

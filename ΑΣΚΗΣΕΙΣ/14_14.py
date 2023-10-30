@@ -15,10 +15,10 @@ class tmima:
             
     def get_foitites(self):
         print('Δώσε φοιτητές για το τμήμα ',self.perigrafi)
-        o=input('Δώσε όνομα > ')
+        o=input('Δώσε όνομα ή ENTER για τερματισμό > ')
         while o!='':
             self.foitites.append(o)
-            o=input('Δώσε όνομα > ')
+            o=input('Δώσε όνομα ή ENTER για τερματισμό > ')
         print('Μπράβο έδωσες ',len(self.foitites),'φοιτητές')
 
     def __iter__(self):

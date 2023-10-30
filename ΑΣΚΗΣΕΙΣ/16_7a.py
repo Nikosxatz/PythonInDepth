@@ -19,7 +19,7 @@ try:
 except FileNotFoundError as e1:
   print('Το αρχειο που έδωσες δεν βρέθηκε')
 except ValueError:
-  print('Το αρχειο που έδωσες μάλλον δεν έχει ακέραιους αριθμούς')  
+  print('Το αρχειο που έδωσες μάλλον δεν έχει ακέραιους αριθμούς έναν σε κάθε γραμμή')  
 except ZeroDivisionError as e2:
   print('Το αρχειο που έδωσες δεν είναι άδειο')    
 else:
