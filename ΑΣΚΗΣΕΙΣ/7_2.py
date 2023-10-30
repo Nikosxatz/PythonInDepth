@@ -1,8 +1,7 @@
-# Σωστή έκδοση της άσκησης 7.2
-def mo(a,b,c):
+def mo(a,b,c)
 	mm=(a+b+c)/3
-	return mm
-def apotelesma(m):
+	return mo
+apotelesma(m):
 	if m>=8.5:
 		print('Μπράβο άριστα!')
 	elif m>=6.5:
@@ -12,7 +11,7 @@ def apotelesma(m):
 	else:
 		print('Δυστυχώς κόπηκες')
 # Κυρίως πρόγραμμα
-mesos=mo(8,7,10)
+mesos=mo(8,7)
 apotelesma(mesos)
 
 

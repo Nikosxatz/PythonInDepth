@@ -1,4 +1,3 @@
-# Σωστή έκδοση της άσκησης 7.1
 def add(x,y):
 	ss=x+y
 	print(info)
@@ -11,8 +10,8 @@ def display():
 	print(sum)
 	print(pol)
 # Κυρίως πρόγραμμα
-info='Python'
 sum=add(10,20)
+info='Python'
 pol=gin(10,20)
 display()
 
